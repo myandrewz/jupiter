@@ -297,6 +297,7 @@ input::-webkit-input-placeholder {
 .mainmenu li a {
     display: inline-block;
     color: #fff;
+    font-weight:500;
     position: relative;
     padding: 5px 16px;
 	margin: 0 3px;
@@ -322,7 +323,7 @@ input::-webkit-input-placeholder {
 	background: #000529; /* Old browsers */
 	background: -moz-linear-gradient(left, #032B47 1%, #195E8F 24%, #4982AA 67%, #4982AA  100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(left, #032B47 1%,#195E8F 24%,#4982AA  67%,#4982AA  100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to right, #032B47 1%,#195E8F 24%,#4982AA  67%,#4982AA 100%);
+	background:  #195E8F ;
 }
 .header.sticky {
 	padding: 10px 0;
@@ -338,7 +339,7 @@ input::-webkit-input-placeholder {
 -------- HERO AREA CSS START --------
 ---------------------------------------*/
 .hero-area {
-    padding-top: 140px;
+    /* padding-top: 140px; */
 	z-index: 1;
 	position: relative;
     background-image: url(../img/background-2426328_1920.jpg);
@@ -360,7 +361,7 @@ input::-webkit-input-placeholder {
 	background: #4982AA ; /* Old browsers */
 	background: -moz-linear-gradient(left, #032B47 1%, #195E8F 24%, #4982AA 67%, #4982AA  100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(left, #032B47 1%,#195E8F 24%,#4982AA  67%,#4982AA  100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to right, #032B47 1%,#195E8F 24%,#4982AA  67%,#4982AA 100%);
+	background:  #195E8F ;
 }
 .hero-area-content {
     color: #fff;
