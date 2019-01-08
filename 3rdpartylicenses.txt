@@ -1014,10 +1014,6 @@ Apache License
    See the License for the specific language governing permissions and
    limitations under the License.
 
-@firebase/messaging@0.3.6
-Apache-2.0
-Apache-2.0
-
 @angular/core@6.1.9
 MIT
 MIT
@@ -1025,6 +1021,10 @@ MIT
 @angular/forms@6.1.9
 MIT
 MIT
+
+@firebase/messaging@0.3.6
+Apache-2.0
+Apache-2.0
 
 core-js@2.5.7
 MIT
