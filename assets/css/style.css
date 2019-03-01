@@ -1384,6 +1384,8 @@ h4.post-title a {
 }
 .blog-details p {
     margin-bottom: 12px;
+    line-height: 25px !important;
+    letter-spacing: 1px !important;
 }
 .blog-reply {
     padding-top: 40px;

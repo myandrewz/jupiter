@@ -1,6 +1,6 @@
 (function ($) {
 	"use strict";
-	
+
 	/*----------------------------
     Responsive menu Active
     ------------------------------ */
@@ -8,7 +8,7 @@
 		allowParentLinks: true,
 		prependTo: '.responsive-menu',
 	});
-	
+
 	/*----------------------------
     START - Menubar scroll animation
     ------------------------------ */
@@ -19,7 +19,7 @@
 			$('.header').removeClass("sticky");
 		}
 	});
-	
+
 	/*----------------------------
     START - Smooth scroll animation
     ------------------------------ */
@@ -37,7 +37,7 @@
 		  }
 		}
 	});
-	
+
 	/*----------------------------
     START - Scroll to Top
     ------------------------------ */
@@ -52,7 +52,7 @@
 		$('html, body').animate({scrollTop : 0},2000);
 		return false;
 	});
-	
+
 	/*----------------------------
     START - Slider activation
     ------------------------------ */
@@ -83,7 +83,7 @@
 
 		}]
 	});
-	
+
 	var testimonialSlider = $('.testimonial-wrap');
 	testimonialSlider.owlCarousel({
 		loop:true,
@@ -115,7 +115,7 @@
 		testimonialSlider.trigger('prev.owl.carousel', [300]);
 		return false;
 	});
-	
+
 	var heroSlider = $('.hero-area-slider');
 	heroSlider.owlCarousel({
 		loop:true,
@@ -136,25 +136,25 @@
 			}
 		}
 	});
-	
+
 	/*----------------------------
 	START - videos popup
 	------------------------------ */
 	$('.popup-youtube').magnificPopup({type:'iframe'});
 	//iframe scripts
-	$.extend(true, $.magnificPopup.defaults, {  
+	$.extend(true, $.magnificPopup.defaults, {
 		iframe: {
 			patterns: {
 				//youtube videos
 				youtube: {
-					index: 'youtube.com/', 
-					id: 'v=', 
-					src: 'https://www.youtube.com/embed/%id%?autoplay=1' 
+					index: 'youtube.com/',
+					id: 'v=',
+					src: 'https://www.youtube.com/embed/%id%?autoplay=1'
 				}
 			}
 		}
 	});
-	
+
 	/*----------------------------
     START - Counterup
     ------------------------------ */
@@ -162,14 +162,14 @@
 		delay: 20,
 		time: 3000
 	});
-	
+
 	/*----------------------------
     START - Video
     ------------------------------ */
 	if($.fn.YTPlayer){
 		$(".player").YTPlayer();
 	}
-	
+
 	/*----------------------------
     START - Switcher animation
     ------------------------------ */
@@ -182,14 +182,14 @@
 			$('#switch-style').animate({'right':'0'});
 		}
 	});
-	
+
 	/*----------------------------
     START - Preloader
     ------------------------------ */
 	jQuery(window).on('load', function(){
 		jQuery("#preloader").fadeOut(500);
 	});
-	
+
 	/*----------------------------
     START - WOW JS animation
     ------------------------------ */
